@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.erudio</groupId>
-    <artifactId>chatgpt-integration</artifactId>
+    <artifactId>chatgpt-spring-boot-java-integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>chatgpt-spring-boot-java-integration</name>
     <properties>

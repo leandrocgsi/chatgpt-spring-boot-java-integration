@@ -25,7 +25,9 @@ public class ChatGptService {
     private RestTemplate template;
 
     public String chat(String prompt){
+        
         logger.info("Starting Prompt");
+        
         ChatGptRequest request = new ChatGptRequest(model, prompt);
         ChatGptResponse response = template.postForObject(apiURL, request, ChatGptResponse.class);
         

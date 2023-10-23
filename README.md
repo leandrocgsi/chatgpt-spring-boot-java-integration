@@ -1,1 +1,1 @@
-# chatgpt-spring-boot-java-integration
+# ChatGPT Spring Boot 3 Java Integration

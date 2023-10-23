@@ -21,7 +21,7 @@ public class OpenAIConfig {
         logger.info("Initializing RestTemplate");
 
         RestTemplate restTemplate = new RestTemplate();
-        restTemplate.setRequestFactory(new HttpComponentsClientHttpRequestFactory());
+        // restTemplate.setRequestFactory(new HttpComponentsClientHttpRequestFactory());
         restTemplate.getInterceptors().add((request, body, execution) -> {
             request.getHeaders().add("Authorization", "Bearer " + openaiApiKey);
             return execution.execute(request, body);
